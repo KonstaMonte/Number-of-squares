@@ -5,7 +5,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SQRserviceTestParameters {
+public class SQRserviceParametersTest {
     @ParameterizedTest
     @CsvSource(value = {"random, 200, 300, 3",
             "zeroes, 0, 0, 0", "obviouslyInvalid, -200, -300, 0", "bigRange, 20, 900000000, 90"
